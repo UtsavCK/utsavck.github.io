@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li{
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f1f2f1;
-    color: 0a034e;
+    color: fuchsia;
 }
 
 header{
@@ -15,7 +15,7 @@ header{
 }
 
 h1{
-    color: fff;
+    color: #f100ff;
     margin-bottom: 20px;
 }
 
