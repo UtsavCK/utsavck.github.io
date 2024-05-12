@@ -26,11 +26,12 @@ nav{
     flex: 2;
     text-align: right;
     height: fit-content;
-    margin-top: 2%;
+    padding: 2% 2%;
 }
 
 nav a{
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-decoration: none;
     color: inherit;
 }
@@ -41,7 +42,7 @@ nav a:hover{
 }
 
 main{
-    padding: 2% 10%;
+    padding: 2%;
 }
 
 .about{
@@ -59,7 +60,7 @@ main{
 }
 
 .about_text{
-    flex: 2;
+    flex: 1;
     height: auto;
     margin-left: 5%;
 }
