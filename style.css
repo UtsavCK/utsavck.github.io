@@ -24,12 +24,13 @@ header p{
 
 nav{
     flex: 2;
-    padding: 10px;
     text-align: right;
+    height: fit-content;
+    margin-top: 2%;
 }
 
 nav a{
-    margin: 20px;
+    margin-left: 10%;
     text-decoration: none;
     color: inherit;
 }
@@ -37,10 +38,10 @@ nav a{
 nav a:hover{
     background-color: inherit;
     color: #721121;
-    font-size: large;
 }
 
 main{
+    padding: 2% 10%;
 }
 
 .about{
@@ -60,6 +61,7 @@ main{
 .about_text{
     flex: 2;
     height: auto;
+    margin-left: 5%;
 }
 
 hr{
