@@ -1,7 +1,7 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0efeb;
 }
 
 h1{
@@ -11,29 +11,33 @@ h1{
 }
 
 header{
-    background-color: aqua;
-    padding: 10px 20px;
-    text-align: center;
+    padding: 1% 2%;
+    display: flex;
+    color: #7c6a0a;
+}
 
+header p{
+    flex: 1;
+    padding-left: 3%;
+    font-size: larger;
 }
 
 nav{
-    background-color: #444;
-    color: #ffffff;
+    flex: 2;
     padding: 10px;
-    text-align: center;
+    text-align: right;
 }
 
 nav a{
-    margin: 0 20px;
-    color: #ffffff;
+    margin: 20px;
     text-decoration: none;
+    color: inherit;
 }
 
 nav a:hover{
     background-color: inherit;
-    color: beige;
-    text-decoration: underline;
+    color: #721121;
+    font-size: large;
 }
 
 main{
@@ -46,9 +50,6 @@ main{
 
 .pic{
     flex: 1;
-    box-sizing: border-box;
-    align-items: right;
-    width: 50%;
 }
 
 .pic img{
@@ -64,6 +65,8 @@ main{
 hr{
     width: 96%;
     text-align: center;
+    color: #DBC2CF;
+    background-color: #DBC2CF;
 }
 
 footer{
@@ -77,10 +80,6 @@ footer{
     width: 32%;
     float: left;
     margin: 1% 0.5%;
-}
-
-.f_para{
-    float: center;
 }
 
 .social_logos{
