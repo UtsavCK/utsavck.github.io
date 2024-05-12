@@ -55,8 +55,9 @@ main{
 }
 
 .pic img{
-    height: auto;
-    border-radius: 50%;
+    height: 500px;
+    width: 500px;;
+    border-radius: 100%;
 }
 
 .about_text{
@@ -74,8 +75,6 @@ hr{
 
 footer{
     display: block;
-    /*background-color: dimgray;
-    color: antiquewhite;*/
     text-align: center;
 }
 
