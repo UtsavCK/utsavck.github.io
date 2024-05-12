@@ -7,6 +7,7 @@ body{
 h1{
     margin: 10px 0px;
     padding: 0;
+    font-size: 40px;
 }
 
 header{
@@ -45,11 +46,9 @@ main{
 
 .pic{
     flex: 1;
-    /* background-color: blanchedalmond; */
-    max-width: 50%;
     box-sizing: border-box;
-    text-align: right;
-    margin-left: 300px;
+    align-items: right;
+    width: 50%;
 }
 
 .pic img{
@@ -62,18 +61,30 @@ main{
     height: auto;
 }
 
-footer{
-    height: 150px;
-    background-color: dimgray;
-    color: antiquewhite;
-    padding: 20px;
+hr{
+    width: 96%;
     text-align: center;
-    position: relative;
-    bottom: 0;
+}
+
+footer{
+    display: block;
+    /*background-color: dimgray;
+    color: antiquewhite;*/
+    text-align: center;
 }
 
 .foot_col{
-    width: 31%;
+    width: 32%;
     float: left;
-    margin: 15px 10px;
+    margin: 1% 0.5%;
+}
+
+.f_para{
+    float: center;
+}
+
+.social_logos{
+    height: 30px;
+    width: 30px;
+    margin: 0.5%;
 }
