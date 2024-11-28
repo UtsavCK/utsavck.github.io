@@ -1,4 +1,9 @@
 {
-    "cleanUrls": true
-  }
-  
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/todo-list",
+      "destination": "https://to-do-list-rouge-seven.vercel.app/"
+    }
+  ]
+}
