@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/todo-list",
+      "destination": "https://to-do-list-rouge-seven.vercel.app/",
+      "permanent": true
+    }
+  ]
 }
