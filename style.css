@@ -246,13 +246,14 @@ footer{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 60%;
     margin: 30px auto;
-    height: max-content;
+    height: auto;
 }
 
 /* Left Section */
 .contact-left {
     flex: 1;
     padding: 20px;
+    min-width: 100px;
     color: #6c4f3d; /* Warm brown for text */
 }
 
@@ -275,7 +276,8 @@ footer{
     background-color: #ffffff; /* White background for the form */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 100%; /* Prevent overflow */
+    max-width: fit-content; /* Prevent overflow */
+    min-width: 150px;
 }
 
 /* Form Elements */
@@ -353,5 +355,15 @@ footer{
     .foot_container{
         flex-direction: column;
         align-items: center;
+    }
+    .contact-container {
+        flex-direction: column; /* Stack elements vertically */
+        max-width: 90%; /* Use more screen width */
+    }
+
+    .contact-left,
+    .contact-right {
+        flex: unset; /* Reset flex growth */
+        width: 100%; /* Full width for both sections */
     }
 }
