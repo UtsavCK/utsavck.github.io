@@ -1,10 +1,13 @@
 {
   "cleanUrls": true,
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/todo-list",
-      "destination": "https://to-do-list-rouge-seven.vercel.app/",
-      "permanent": true
+      "source": "/projects/todo-list",
+      "destination": "https://to-do-list-rouge-seven.vercel.app"
+    },
+    {
+      "source": "/projects/todo-list/:path*", 
+      "destination": "https://to-do-list-rouge-seven.vercel.app/:path*"
     }
   ]
 }
