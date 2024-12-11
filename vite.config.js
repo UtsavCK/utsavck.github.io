@@ -11,4 +11,5 @@ export default defineConfig({
             EMAILJS_TEMPLATE_ID: process.env.VITE_EMAILJS_TEMPLATE_ID,
         },
     },
+    base: '/', 
 });
